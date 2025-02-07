@@ -6,7 +6,7 @@ import Milter
 import psycopg2
 from cryptography.fernet import Fernet# Mesaj gövdesini biriktir
 
-
+#deneme
 class EmailMilter(Milter.Base):
     def __init__(self):
         self.id = Milter.uniqueID()
